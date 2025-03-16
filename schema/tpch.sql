@@ -1,7 +1,7 @@
-CREATE DATABASE [TPCH]
+CREATE DATABASE [tpch]
 GO
 
-USE TPCH
+USE tpch
 GO
 
 CREATE TABLE [dbo].[customer](
