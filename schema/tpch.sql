@@ -98,11 +98,11 @@ CREATE TABLE [dbo].[supplier](
 ) ON [PRIMARY]
 GO
 
-BULK INSERT part FROM '/home/nghia/Documents/tpch_2.18.0_rc2/dbgen/part.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
-BULK INSERT customer FROM '/home/nghia/Documents/tpch_2.18.0_rc2/dbgen/customer.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
-BULK INSERT orders FROM '/home/nghia/Documents/tpch_2.18.0_rc2/dbgen/orders.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
-BULK INSERT partsupp FROM '/home/nghia/Documents/tpch_2.18.0_rc2/dbgen/partsupp.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
-BULK INSERT supplier FROM '/home/nghia/Documents/tpch_2.18.0_rc2/dbgen/supplier.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
-BULK INSERT lineitem FROM '/home/nghia/Documents/tpch_2.18.0_rc2/dbgen/lineitem.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
-BULK INSERT nation FROM '/home/nghia/Documents/tpch_2.18.0_rc2/dbgen/nation.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
-BULK INSERT region FROM '/home/nghia/Documents/tpch_2.18.0_rc2/dbgen/region.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT part FROM '/opt/tpch-dbgen/dbgen/part.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT customer FROM '/opt/tpch-dbgen/dbgen/customer.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT orders FROM '/opt/tpch-dbgen/dbgen/orders.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT partsupp FROM '/opt/tpch-dbgen/dbgen/partsupp.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT supplier FROM '/opt/tpch-dbgen/dbgen/supplier.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT lineitem FROM '/opt/tpch-dbgen/dbgen/lineitem.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT nation FROM '/opt/tpch-dbgen/dbgen/nation.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT region FROM '/opt/tpch-dbgen/dbgen/region.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
