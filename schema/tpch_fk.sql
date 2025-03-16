@@ -1,4 +1,4 @@
-USE tpch;
+USE TPCH;
 GO
 
 ALTER TABLE region ALTER COLUMN r_regionkey INT NOT NULL;
